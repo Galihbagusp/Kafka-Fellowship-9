@@ -14,6 +14,6 @@ if __name__ == '__main__':
         print(json_file)
         df = pd.DataFrame.from_records([json_file])
         df.to_csv(
-            '/output/consumer_product.csv')
+            '/home/galihbaguspr/kafka-python-code/output/consumer_product.csv')
         
 
